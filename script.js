@@ -8,4 +8,4 @@ const targetDate=new Date("2025-01-01").getTime(),countdownElement=document.getE
     <span class="time-unit">${d}h</span>
     <span class="time-unit">${e}m</span>
     <span class="time-unit">${f}s</span>
-  `,0>b&&(clearInterval(interval),countdownElement.innerHTML="2025!!!!")}const interval=setInterval(updateCountdown,1e3);updateCountdown();
+  `,0>b&&(clearInterval(interval),countdownElement.innerHTML="2025")}const interval=setInterval(updateCountdown,1e3);updateCountdown();
