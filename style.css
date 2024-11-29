@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap');
+
+body{
+    background-color: black;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 55px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.countdown {
+    display: flex;
+    font-size: 24px;
+    font-family: "Share Tech Mono", monospace;
+    color: #f0f8ff;
+}
+
+.time-unit {
+    margin-right: 10px;
+  }
+  .count-text {
+    margin-right: 10px;
+  }
+  .title-unit {
+    margin-right: 20px;
+  }
+
+@media only screen and (max-width: 600px) {
+    .countdown{
+        flex-direction: column;
+    }
+}
