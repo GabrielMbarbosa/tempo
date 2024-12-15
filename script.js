@@ -3,7 +3,7 @@ const targetDate=new Date("2025-01-01").getTime(),countdownElement=document.getE
     <span class="time-unit">${d} horas</span>
     <span class="time-unit">${e} minutos</span>
     <span class="time-unit">${f} segundos</span>
-    <span class="count-text">para <span class="year">2025!</span></span>  `:`
+    <span class="count-text">Para 2025  <span class="year"> Acabar!</span></span>  `:`
     <span class="time-unit">${c}d</span>
     <span class="time-unit">${d}h</span>
     <span class="time-unit">${e}m</span>

@@ -47,4 +47,8 @@ img{
     .countdown{
         flex-direction: column;
     }
+
+    .year{
+        margin-left: 0px;
+    }
 }
